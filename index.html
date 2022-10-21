@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Test v3</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="time">Time: <span id="countdown">60</span></div>
+        <input type="text" id="input-field" autocomplete="off" />
+        <p></p>
+      </div>
+      <div class="results">
+        <p>WPM: <span id="wpm-el"></span></p>
+        <p>Mistakes: <span id="mistakes-el"></span></p>
+        <p>Accuracy: <span id="accuracy-el"></span>%</p>
+        <p>Time: <span id="time-taken-el"></span>s</p>
+      </div>
+      <div class="btn-wrapper">
+        <button id="next-test">Next test</button>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/lyrics.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
